@@ -1,0 +1,25 @@
+{
+  "name": "hello-hugo",
+  "version": "0.1.0",
+  "description": "Getting started with Hugo",
+  "homepage": "https://github.com/mark-wiemer/hello-hugo#readme",
+  "bugs": {
+    "url": "https://github.com/mark-wiemer/hello-hugo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-wiemer/hello-hugo.git"
+  },
+  "license": "MIT",
+  "author": "Mark Wiemer",
+  "main": "public/index.html",
+  "scripts": {
+    "format": "sort-package-json",
+    "test": "hugo build --panicOnWarning"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.145.0",
+    "prettier": "3.5.3",
+    "sort-package-json": "^2.15.1"
+  }
+}
