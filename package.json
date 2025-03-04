@@ -14,9 +14,11 @@
   "author": "Mark Wiemer",
   "main": "public/index.html",
   "scripts": {
+    "build:ci": "hugo --minify --gc",
+    "clean": "rm -rf public",
     "format": "sort-package-json",
-    "test": "npm run build:ci -- --panicOnWarning",
-    "build:ci": "hugo --minify --gc"
+    "start": "hugo server",
+    "test": "npm run clean && npm run build:ci -- --panicOnWarning"
   },
   "devDependencies": {
     "hugo-extended": "^0.145.0",
