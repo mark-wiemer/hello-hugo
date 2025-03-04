@@ -1,4 +1,4 @@
 baseURL = 'https://mark-wiemer.github.io/hello-hugo/'
 languageCode = 'en-us'
-title = 'Hello Hugo'
-theme = 'ananke'
+title = 'Hello Hugo Modules'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
