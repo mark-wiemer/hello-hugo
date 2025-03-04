@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "meganrogge.template-string-converter",
+    "simonsiefke.svg-preview",
+    "tyriar.sort-lines",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    "wmaurer.change-case",
+    "aaron-bond.better-comments"
+  ]
+}
