@@ -15,7 +15,8 @@
   "main": "public/index.html",
   "scripts": {
     "format": "sort-package-json",
-    "test": "hugo build --panicOnWarning"
+    "test": "npm run build:ci -- --panicOnWarning",
+    "build:ci": "hugo --minify --gc"
   },
   "devDependencies": {
     "hugo-extended": "^0.145.0",
